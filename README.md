@@ -6,7 +6,7 @@ RxJava & Retrofit & glide & rxbinding ... 学习下各类强大库的适用
 #下载APK：
 大家尽量 [应用宝](http://android.myapp.com/myapp/detail.htm?apkName=com.leaf.gankio) 下载,给个好评支持,Thank You Very Much！<br />  其他：http://fir.im/GankMeiZhi
 ##感谢
-[drakeet](https://github.com/drakeet)  [代码家](https://github.com/daimajia)  [LiCola](https://github.com/LiCola) 等所有开源的伙伴
+[drakeet](https://github.com/drakeet)  [代码家](https://github.com/daimajia)  [LiCola](https://github.com/LiCola) 等所有开源的开发者
 ##截图
 <img src="./Screenshot/Screenshot_00.png" width="30%" height="30%">    <img src="./Screenshot/Screenshot_01.png" width="30%" height="30%">    <img src="./Screenshot/Screenshot_02.png" width="30%" height="30%">    <img src="./Screenshot/Screenshot_03.png" width="30%" height="30%">    <img src="./Screenshot/Screenshot_04.png" width="30%" height="30%">    <img src="./Screenshot/Screenshot_05.png" width="30%" height="30%">
 ##说明
