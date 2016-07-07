@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e84e40</color><!-- FF4081-->
+
+    <color name="colorTheme">#67698D</color> <!--3F4075 3D4046 05C085-->
+
+    <color name="color_gree">#35b87f</color>
+    <color name="color_red">#E97663</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="gray">#444440</color>
+
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_gray_d">#dddddd</color>
+    <color name="bg_gray_e">#eeeeee</color>
+    <color name="text_333333">#333333</color>
+    <color name="text_666666">#666666</color>
+    <color name="text_999999">#999999</color>
+
+    <drawable name="listdivier">#f2f2f2</drawable>
+</resources>

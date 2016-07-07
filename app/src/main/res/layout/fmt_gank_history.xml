@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.kennyc.view.MultiStateView
+        android:id="@+id/multiStateView"
+        app:msv_emptyView="@layout/common_empty"
+        app:msv_errorView="@layout/common_error"
+        app:msv_loadingView="@layout/common_loading"
+        app:msv_viewState="loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gankRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"/>
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    </com.kennyc.view.MultiStateView>
+</LinearLayout>

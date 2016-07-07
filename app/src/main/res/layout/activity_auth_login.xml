@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray_e"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/login_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:text="使用社交网络账号登录"
+        android:textColor="@color/text_666666"
+        android:textSize="@dimen/text_size_14" />
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_tips"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_white">
+
+        <TextView
+            android:id="@+id/login_weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/login_icon_weibo"
+            android:gravity="center"
+            android:text="新浪微博"
+            android:textColor="@color/text_333333"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/login_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/login_icon_qq"
+            android:gravity="center"
+            android:text="QQ"
+            android:textColor="@color/text_333333"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/login_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/login_icon_weixin"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="@color/text_333333"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_tips1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:text="@string/login_lay_tips"
+        android:textColor="@color/text_333333"
+        android:textSize="@dimen/text_size_12" />
+
+    <RelativeLayout
+        android:id="@+id/login_loading_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            style="?android:progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_333333"
+            android:text="@string/login_loading"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

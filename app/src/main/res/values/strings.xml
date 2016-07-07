@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">GankMeiZhi</string><!--Leaf.GankIo LGI-->
+    <string name="action_settings">设置</string>
+    <string name="action_like">喜欢</string>
+    <string name="action_share">分享</string>
+    <string name="action_more">更多</string>
+    <string name="action_download">下载</string>
+    <string name="action_collect">收藏</string>
+    <string name="action_uncollect">取消收藏</string>
+    <string name="action_copy_link">复制链接</string>
+
+    <!-- login start -->
+    <string name="login">登录</string>
+    <string name="weibosdk_toast_auth_success">授权成功</string>
+    <string name="weibosdk_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_toast_auth_canceled">取消授权</string>
+    <!-- login end -->
+
+    <string name="meizhi">妹纸</string>
+    <string name="classify">分类</string>
+    <string name="history">干货</string>
+    <string name="mine">我</string>
+
+    <!--  setting -->
+    <string name="setting_suggestions_title">意见反馈</string>
+    <string name="setting_version_title">当前版本</string>
+    <string name="setting_cache_title">清除图片缓存</string>
+    <string name="setting_aboutme_title">关于</string>
+    <string name="setting_share_title">分享GankMeiZhi给好友</string>
+    <string name="setting_score_title">去应用市场为我评分</string>
+    <string name="setting_logout_title">退出</string>
+
+    <string name="about_pay_title">给我点赞</string>
+    <string name="about_text_1">干货，有妹纸福利图片，Android，IOS，前端，APP等资源。如果你觉得不错，可以帮忙分享给你更多的朋友，或请我喝瓶饮料(所谓的打赏&#062;^ω^&#060;)，Thank You Very Much！</string>
+    <string name="about_text_2">感谢@代码家，@drakeet，@licola等所有开源的人.</string>
+    <string name="about_text_3">有疑问请联系我 yeming_1001@163.com，权侵删， By Leaf</string>
+
+    <string name="setting_suggestions_tip">请先安装邮件应用,或直接发送邮件至 yeming_1001@163.com</string>
+    <string name="setting_socre_tip">手机上没有找到任何应用市场</string>
+    <!--setting end-->
+
+    <string name="mine_collect">收藏</string>
+    <string name="mine_like">喜欢</string>
+
+
+    <string name="share_text">Leaf.GankIo APP，精选妹纸图、各类开源技术干货,不要太赞。推荐~~ : http://fir.im/GankMeiZhi </string>
+    <string name="share_from">%s<![CDATA[" - from「GankMeiZhi」http://fir.im/GankMeiZhi "]]></string>
+    <string name="copy_tips">复制成功</string>
+    <string name="login_weixin_tips">暂不支持微信登录,请使用微博/QQ登录</string>
+    <string name="common_error_text">哎呀,出错了,请重试!</string>
+    <string name="no_description_tips">这个家伙很懒,什么也没写</string>
+    <string name="download_success_tips">图片已保存到%s文件夹</string>
+    <string name="snack_action_msg">知道了</string>
+    <string name="share_meizhi_to">分享妹纸到</string>
+    <string name="clear_cache_tips">缓存清除成功</string>
+    <string name="login_lay_tips">阳光下灿烂,风雨中奔跑 @Leaf</string>
+    <string name="login_loading">正在登录,请稍候</string>
+    <string name="exit_tips">再按一次退出</string>
+
+
+    <string name="snack_message_login_befor">请先登录</string>
+    <string name="snack_message_login_success">登录成功</string>
+    <string name="snack_message_login_failure">登录失败</string>
+    <string name="snack_message_login_error">登录异常:</string>
+    <string name="snack_message_login_cancel">取消登录</string>
+    <string name="snack_message_net_error">网络错误 请检查网络</string>
+    <string name="snack_message_collect_already">你已经收藏过了</string>
+    <string name="snack_message_collect_success">收藏成功(可在我的收藏里查看)</string>
+    <string name="snack_message_collect_failure">收藏失败</string>
+    <string name="snack_message_uncollect_failure">取消收藏失败</string>
+    <string name="snack_message_uncollect_success">取消收藏成功</string>
+    <string name="snack_message_timeout_error">连接超时 请检查网络</string>
+    <string name="snack_message_unknown_error">未知错误,请重试</string>
+    <string name="snack_message_data_error">数据解析错误</string>
+    <string name="snack_message_crash_error">很抱歉,程序出现异常,即将退出</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">正在加载中…</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="list_footer_end">没有更多数据</string>
+
+</resources>

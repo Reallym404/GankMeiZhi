@@ -1,0 +1,20 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_collect"
+        android:title="@string/action_collect"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_copy_link"
+        android:title="@string/action_copy_link"
+        app:showAsAction="never"/>
+
+</menu>
