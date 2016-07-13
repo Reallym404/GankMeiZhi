@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
- // 使用命令打包：gradlew assembleRelease
+ 
 android {
     compileSdkVersion 23
     buildToolsVersion '23.0.3'
